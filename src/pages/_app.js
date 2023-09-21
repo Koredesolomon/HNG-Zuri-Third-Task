@@ -1,5 +1,7 @@
 import '@/styles/globals.css'
 import { Auth0Provider } from '@auth0/auth0-react';
+import {DndProvider} from 'react-dnd';
+import {HTML5Backend} from "react-dnd-html5-backend"
 
 
 const domain = 'dev-gg6d0y0ixkvbznbp.us.auth0.com';
@@ -14,7 +16,9 @@ export default function App({ Component, pageProps }) {
           redirect_uri: 'http://localhost:3000'
         }}
   >
-    <Component {...pageProps} />
+    <DndProvider backend={HTML5Backend}>
+        <Component {...pageProps} />
+    </DndProvider>
   </Auth0Provider>
   )
 }

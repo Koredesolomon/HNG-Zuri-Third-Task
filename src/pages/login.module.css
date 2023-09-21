@@ -1,0 +1,22 @@
+/* Define the initial style of the button */
+.button {
+    background-color: transparent;
+    color: #000;
+    /* Initial text color */
+    border: 2px solid #000;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-top: 2rem;
+}
+
+/* Define the hover effect */
+.button:hover {
+    background-color: #000;
+    /* Background color on hover */
+    color: #fff;
+    /* Text color on hover */
+    border-color: #fff;
+    /* Border color on hover */
+}

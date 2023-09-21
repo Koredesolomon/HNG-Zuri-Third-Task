@@ -3,17 +3,20 @@ import styles from '@/styles/Home.module.css'
 import Login from './login'
 import classes from './index.module.css'
 import Logout from './logout'
-import ImageList from '../../components/images-list'
-import { getAllImages } from '../../dummy_data'
+import ImageList from '../components/images-list'
+import Nav from '../components/nav.js'
+import Footer from '../components/footer.js'
+
 
 
 export default function Home() {
-  const allImages = getAllImages();
   return (
     <main className={classes.main}>
+      <Nav/>
       <Login />
       <Logout/>
-      <ImageList image={allImages}/>
+      <ImageList/>
+      <Footer/>
     </main>
   )
 }
