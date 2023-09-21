@@ -1,7 +1,8 @@
 import '@/styles/globals.css'
 import { Auth0Provider } from '@auth0/auth0-react';
 import {DndProvider} from 'react-dnd';
-import {HTML5Backend} from "react-dnd-html5-backend"
+import {HTML5Backend} from "react-dnd-html5-backend";
+// import '/.env'
 
 
 const domain = 'dev-gg6d0y0ixkvbznbp.us.auth0.com';

@@ -19,6 +19,7 @@
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
+    margin-top: 2rem;
 }
 
 /* Define the hover effect */
@@ -44,7 +45,7 @@
 .item img {
     display: block;
     width: -webkit-fill-available;
-    height: auto;
+    height: 200px;
     border-radius: 2rem;
 }
 

@@ -1,73 +1,74 @@
 const images = [
     {
         id: 'e1',
-        image: 'images/1.jpg',
+        image: 'images/nike.jpeg',
         tag: 'Nike'
     },
     
     {
         id: 'e2',
-        image: 'images/2.jpg',
+        image: 'images/adidas.jpeg',
         tag: 'Adidas'
     },
     
     {
         id: 'e3',
-        image: 'images/1.jpg',
+        image: 'images/nb.webp',
         tag: 'NewBalance'
     },
     
     {
         id: 'e4',
-        image: 'images/2.jpg',
+        image: 'images/converse.jpeg',
         tag: 'converse'
+
     },
     
     {
         id: 'e5',
-        image: 'images/1.jpg',
+        image: 'images/vans.jpg',
         tag: 'Vans'
     },
     
     {
         id: 'e6',
-        image: 'images/2.jpg',
+        image: 'images/jordan.jpeg',
         tag: 'Jordan'
     },
     
     {
         id: 'e7',
-        image: 'images/1.jpg',
+        image: 'images/reebok.jpeg',
         tag: 'Reebok'
     },
     
     {
         id: 'e8',
-        image: 'images/2.jpg',
+        image: 'images/puma.jpeg',
         tag: 'Puma'
     },
     
     {
         id: 'e9',
-        image: 'images/1.jpg',
+        image: 'images/saucony.jpeg',
         tag: 'Saucony'
     },
     
     {
         id: 'e10',
-        image: 'images/2.jpg',
+        image: 'images/asics.jpeg',
         tag: 'Asics'
     },
     
     {
         id: 'e11',
-        image: 'images/1.jpg',
+        image: 'images/hoka.jpeg',
         tag: 'Hoka'
     },
     
     {
         id: 'e12',
-        image: 'images/2.jpg',
+        image: 'images/salomon.jpg',
         tag: 'Salomon'
     }
 ]

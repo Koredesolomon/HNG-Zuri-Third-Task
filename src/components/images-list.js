@@ -52,7 +52,7 @@ const Card = ({ id, tag, image, index, moveImage }) => {
         <div className={classes.item}>
           <img src={image} alt={tag}/>
           <div className={classes.overlay}>
-            <div className={classes.text}>SHOE GALLERY</div>
+            <div className={classes.text}>{tag}</div>
           </div>
         </div>
       </div>
