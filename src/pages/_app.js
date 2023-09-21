@@ -14,7 +14,7 @@ export default function App({ Component, pageProps }) {
   domain={domain}
   clientId={clientId}
   authorizationParams={{
-          redirect_uri: 'http://localhost:3000'
+          redirect_uri: 'https://image-art-gallery.netlify.app/'
         }}
   >
     <DndProvider backend={HTML5Backend}>
